@@ -36,9 +36,12 @@ a {
 	
 a:hover { 
 	color: #377ebc;
-	border-bottom: 1px dotted #377ebc;
+	text-decoration: underline;
 	}	
-	
+
+.block-link {
+	display: block;	
+	}	
 	
 	
 .intro { 
@@ -50,7 +53,7 @@ a:hover {
 
 .content { 
 	margin : auto;
-	width: 620px;
+	max-width: 620px;
 	}
 	
 .content:after {
@@ -69,13 +72,14 @@ a:hover {
 	}
 	
 .work-column-left {
-	width: 300px;
-	margin-right: 20px;
+	width: 48%;
+	margin-right: 2%;
 	float: left;
 	}
 	
 .work-column-right {
-	width: 300px;
+	width: 48%;
+	margin-left: 2%;
 	float: left;
 	}
 
@@ -143,16 +147,41 @@ a:hover {
 	
 .footer a { 
 	color: #ffffff;
-	border-bottom: 1px dotted #ffffff;
+	text-decoration: underline;
 	}
 	
 .footer a:hover { 
 	color: #ffffff;
-	border-bottom: none;
+	text-decoration: none;
 	}
 
 	
+@media (max-width: 480px) {
 	
+h1 { 
+	font-size: 24px;
+	line-height: 32px;
+	}
+
+body { 
+	font-size: 16px;
+	line-height: 26px;	
+	}
+
+.content { 
+	padding: 0 20px;
+	}
+	
+.work-column-left, .work-column-right {
+	width: 100%;
+	margin: 0;
+	}
+	
+br {
+	display: none;
+	}
+	
+}	
 	
 		
 	
