@@ -6,7 +6,7 @@ body {
 	background-color: #eeeeee;
 	font-family: 'Merriweather', serif;
 	margin: 0 auto;
-	font-size: 18px;
+	font-size: 19px;
 	line-height: 31px;
 	color: #404040;
 	text-align: left;	
@@ -36,7 +36,7 @@ a {
 	
 a:hover { 
 	color: #377ebc;
-	text-decoration: underline;
+	border-bottom: 1px dotted #377ebc;
 	}	
 	
 	
@@ -143,12 +143,12 @@ a:hover {
 	
 .footer a { 
 	color: #ffffff;
-	text-decoration: underline;	
+	border-bottom: 1px dotted #ffffff;
 	}
 	
 .footer a:hover { 
 	color: #ffffff;
-	text-decoration: none;	
+	border-bottom: none;
 	}
 
 	
