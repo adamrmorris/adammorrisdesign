@@ -1,0 +1,158 @@
+html {
+	-webkit-font-smoothing: antialiased;
+	}
+
+body { 
+	background-color: #eeeeee;
+	font-family: 'Merriweather', serif;
+	margin: 0 auto;
+	font-size: 18px;
+	line-height: 31px;
+	color: #404040;
+	text-align: left;	
+	}
+	
+h1 { 
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 48px;
+	line-height: 56px;
+	color: #f0f0f0;
+	}	
+	
+h2 { 
+	font-family: 'Open Sans', Helvetica, sans-serif; 
+	color: #818181;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	}	
+	
+	
+a { 
+	color: #2777bc;
+	text-decoration: none;
+	}	
+	
+a:hover { 
+	color: #377ebc;
+	text-decoration: underline;
+	}	
+	
+	
+	
+.intro { 
+	background-color: #808080;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	color: #ffffff;
+	}
+
+.content { 
+	margin : auto;
+	width: 620px;
+	}
+	
+.content:after {
+ 	content: "";
+	display: table;
+	clear: both;
+	}	
+		
+.about { 
+	padding-top: 120px;
+	padding-bottom: 100px;
+	}
+	
+.work { 
+	padding-bottom: 120px;
+	}
+	
+.work-column-left {
+	width: 300px;
+	margin-right: 20px;
+	float: left;
+	}
+	
+.work-column-right {
+	width: 300px;
+	float: left;
+	}
+
+
+.contact { 
+	background-color: #377ebb;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 48px;
+	line-height: 56px;
+	color: #1e4465;
+	padding-top: 40px;
+	padding-bottom: 120px;
+	}
+
+.contact h2 { 
+	font-family: 'Open Sans', Helvetica, sans-serif; 
+	color: #1e4465;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	}
+
+.contact a { 
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 48px;
+	line-height: 56px;
+	color: #ffffff;
+	text-decoration: none;
+	-webkit-transition: color .1s linear;
+	}
+
+
+
+.contact .email:hover { 
+	color: #dd6253;
+	}
+	
+.contact .twitter:hover { 
+	color: #7adeff;
+	}
+	
+.contact .linkedin:hover { 
+	color: #5ba5ca;
+	}
+	
+.contact .instagram:hover { 
+	color: #dfaf90;
+	}
+	
+.contact .dribbble:hover { 
+	color: #ea76a3;
+	}
+	
+	
+.footer { 
+	background-color: #20486b;
+	font-family: 'Merriweather', serif;
+	font-size: 12px;
+	color: #ffffff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	}
+	
+.footer a { 
+	color: #ffffff;
+	text-decoration: underline;	
+	}
+	
+.footer a:hover { 
+	color: #ffffff;
+	text-decoration: none;	
+	}
+
+	
+	
+	
+		
+	
