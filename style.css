@@ -2,6 +2,47 @@ html {
 	-webkit-font-smoothing: antialiased;
 	}
 
+	.animated {
+	    -webkit-animation-duration: .7s;
+	       -moz-animation-duration: .7s;
+	        -ms-animation-duration: .7s;
+	         -o-animation-duration: .7s;
+	            animation-duration: .7s;
+	    -webkit-animation-fill-mode: both;
+	       -moz-animation-fill-mode: both;
+	        -ms-animation-fill-mode: both;
+	         -o-animation-fill-mode: both;
+	            animation-fill-mode: both;
+	}
+
+	@-webkit-keyframes fadeIn {
+		0% {opacity: 0;}	
+		100% {opacity: 1;}
+	}
+
+	@-moz-keyframes fadeIn {
+		0% {opacity: 0;}	
+		100% {opacity: 1;}
+	}
+
+	@-o-keyframes fadeIn {
+		0% {opacity: 0;}	
+		100% {opacity: 1;}
+	}
+
+	@keyframes fadeIn {
+		0% {opacity: 0;}	
+		100% {opacity: 1;}
+	}
+
+	.fadeIn {
+		-webkit-animation-name: fadeIn;
+		-moz-animation-name: fadeIn;
+		-o-animation-name: fadeIn;
+		animation-name: fadeIn;
+	}	
+		
+
 body { 
 	background-color: #eeeeee;
 	font-family: 'Merriweather', serif;
@@ -17,6 +58,7 @@ h1 {
 	font-weight: 300;
 	font-size: 48px;
 	line-height: 56px;
+	letter-spacing: -1px;
 	color: #f0f0f0;
 	}	
 	
@@ -50,10 +92,15 @@ a:hover {
 	padding-bottom: 120px;
 	color: #ffffff;
 	}
+	
+.br-mobile {
+	display: none;
+	}	
 
 .content { 
 	margin : auto;
 	max-width: 620px;
+	padding: 0 40px;
 	}
 	
 .content:after {
@@ -83,7 +130,6 @@ a:hover {
 	float: left;
 	}
 
-
 .contact { 
 	background-color: #377ebb;
 	font-family: 'Open Sans', Helvetica, sans-serif;
@@ -91,6 +137,7 @@ a:hover {
 	font-size: 48px;
 	line-height: 56px;
 	color: #1e4465;
+	letter-spacing: -1px;
 	padding-top: 40px;
 	padding-bottom: 120px;
 	}
@@ -101,6 +148,7 @@ a:hover {
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
+	letter-spacing: 0px;
 	}
 
 .contact a { 
@@ -140,6 +188,7 @@ a:hover {
 	background-color: #20486b;
 	font-family: 'Merriweather', serif;
 	font-size: 12px;
+	line-height: 21px;
 	color: #ffffff;
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -155,19 +204,49 @@ a:hover {
 	text-decoration: none;
 	}
 
-	
-@media (max-width: 480px) {
-	
-h1 { 
-	font-size: 24px;
-	line-height: 32px;
+
+@media (max-width: 346px) {
+/*Styles up to 346px */
+
+.br-mobile {
+	display: inline;
 	}
+	
+.slash {
+	display: none;
+	}
+	
+}
+	
+@media (max-width: 600px) {
+/*Styles up to 600px */
 
 body { 
 	font-size: 16px;
 	line-height: 26px;	
 	}
+	
+h1 { 
+	font-size: 32px;
+	line-height: 40px;
+	}
+	
+h2 { 
+	font-size: 12px;
+	}
 
+	
+.intro { 
+	padding-top: 60px;
+	padding-bottom: 60px;
+	}
+		
+
+.about { 
+	padding-top: 60px;
+	padding-bottom: 40px;
+	}
+	
 .content { 
 	padding: 0 20px;
 	}
@@ -176,12 +255,61 @@ body {
 	width: 100%;
 	margin: 0;
 	}
+
+.work { 
+	padding-bottom: 60px;
+	}	
+
+		
+.contact { 
+	font-size: 32px;
+	line-height: 40px;
+	padding-bottom: 60px;
+	}
+		
+.contact a {
+	font-size: 32px;
+	line-height: 40px;
+	}
 	
-br {
-	display: none;
+.contact h2 { 
+	font-size: 12px;
+	}	
+	
+.footer { 
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}	
+}	
+	
+@media (min-width: 1100px) {
+/*Styles for 1100px and up */
+
+body { 
+	font-size: 21px;
+	line-height: 36px;
+	}
+	
+h1 { 
+	font-size: 52px;
+	line-height: 60px;
+	letter-spacing: -2px;
+	}
+	
+.content { 
+	max-width: 700px;
+	}
+	
+.contact { 
+	font-size: 52px;
+	line-height: 60px;
+	letter-spacing: -2px;
+	}
+		
+.contact a {
+	font-size: 52px;
+	line-height: 60px;
+	letter-spacing: -2px;
 	}
 	
 }	
-	
-		
-	
