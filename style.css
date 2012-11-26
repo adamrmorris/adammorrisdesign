@@ -161,7 +161,15 @@ a:hover {
 	-webkit-transition: color .1s linear;
 	}
 
+.contact a:after { 
+	content: "/";
+	padding: 0 15px 0 20px;
+	color: #1e4465;
+	}
 
+.contact a:last-child:after {
+	display: none;
+	}
 
 .contact .email:hover { 
 	color: #dd6253;
@@ -212,8 +220,12 @@ a:hover {
 	display: inline;
 	}
 	
-.slash {
+.contact a:after { 
 	display: none;
+	}
+
+.contact a {
+	display: block;
 	}
 	
 }
