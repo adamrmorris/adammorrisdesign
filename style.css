@@ -2,46 +2,6 @@ html {
 	-webkit-font-smoothing: antialiased;
 	}
 
-	.animated {
-	    -webkit-animation-duration: .7s;
-	       -moz-animation-duration: .7s;
-	        -ms-animation-duration: .7s;
-	         -o-animation-duration: .7s;
-	            animation-duration: .7s;
-	    -webkit-animation-fill-mode: both;
-	       -moz-animation-fill-mode: both;
-	        -ms-animation-fill-mode: both;
-	         -o-animation-fill-mode: both;
-	            animation-fill-mode: both;
-	}
-
-	@-webkit-keyframes fadeIn {
-		0% {opacity: 0;}	
-		100% {opacity: 1;}
-	}
-
-	@-moz-keyframes fadeIn {
-		0% {opacity: 0;}	
-		100% {opacity: 1;}
-	}
-
-	@-o-keyframes fadeIn {
-		0% {opacity: 0;}	
-		100% {opacity: 1;}
-	}
-
-	@keyframes fadeIn {
-		0% {opacity: 0;}	
-		100% {opacity: 1;}
-	}
-
-	.fadeIn {
-		-webkit-animation-name: fadeIn;
-		-moz-animation-name: fadeIn;
-		-o-animation-name: fadeIn;
-		animation-name: fadeIn;
-	}	
-		
 
 body { 
 	background-color: #eeeeee;
@@ -57,7 +17,7 @@ h1 {
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-weight: 300;
 	font-size: 48px;
-	line-height: 56px;
+	line-height: 58px;
 	letter-spacing: -1px;
 	color: #f0f0f0;
 	}	
@@ -129,13 +89,17 @@ a:hover {
 	margin-left: 2%;
 	float: left;
 	}
+	
+.work-column-left, .work-column-right a {
+	line-height: 36px;	
+	}
 
 .contact { 
 	background-color: #377ebb;
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-weight: 300;
 	font-size: 48px;
-	line-height: 56px;
+	line-height: 58px;
 	color: #1e4465;
 	letter-spacing: -1px;
 	padding-top: 40px;
@@ -155,7 +119,7 @@ a:hover {
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-weight: 300;
 	font-size: 48px;
-	line-height: 56px;
+	line-height: 58px;
 	color: #ffffff;
 	text-decoration: none;
 	-webkit-transition: color .1s linear;
@@ -219,7 +183,7 @@ a:hover {
 .br-mobile {
 	display: inline;
 	}
-	
+
 .contact a:after { 
 	display: none;
 	}
@@ -240,7 +204,7 @@ body {
 	
 h1 { 
 	font-size: 32px;
-	line-height: 40px;
+	line-height: 42px;
 	}
 	
 h2 { 
@@ -267,6 +231,10 @@ h2 {
 	width: 100%;
 	margin: 0;
 	}
+	
+.work-column-left, .work-column-right a {
+	line-height: 32px;	
+	}	
 
 .work { 
 	padding-bottom: 60px;
@@ -275,13 +243,13 @@ h2 {
 		
 .contact { 
 	font-size: 32px;
-	line-height: 40px;
+	line-height: 44px;
 	padding-bottom: 60px;
 	}
 		
 .contact a {
 	font-size: 32px;
-	line-height: 40px;
+	line-height: 44px;
 	}
 	
 .contact h2 { 
@@ -304,7 +272,7 @@ body {
 	
 h1 { 
 	font-size: 52px;
-	line-height: 60px;
+	line-height: 62px;
 	letter-spacing: -2px;
 	}
 	
@@ -314,13 +282,13 @@ h1 {
 	
 .contact { 
 	font-size: 52px;
-	line-height: 60px;
+	line-height: 62px;
 	letter-spacing: -2px;
 	}
 		
 .contact a {
 	font-size: 52px;
-	line-height: 60px;
+	line-height: 62px;
 	letter-spacing: -2px;
 	}
 	
