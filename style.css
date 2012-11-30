@@ -1,5 +1,6 @@
 html {
 	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust:none;	
 	}
 
 
@@ -11,7 +12,6 @@ body {
 	line-height: 31px;
 	color: #404040;
 	text-align: left;
-	-webkit-text-size-adjust:none;	
 	}
 	
 h1 { 
@@ -210,19 +210,19 @@ h1 {
 	}
 	
 h2 { 
-	font-size: 12px;
+	font-size: 13px;
 	}
 
 	
 .intro { 
-	padding-top: 45px;
-	padding-bottom: 60px;
+	padding-top: 25px;
+	padding-bottom: 50px;
 	}
 		
 
 .about { 
-	padding-top: 60px;
-	padding-bottom: 40px;
+	padding-top: 40px;
+	padding-bottom: 30px;
 	}
 	
 .content { 
@@ -246,6 +246,7 @@ h2 {
 .contact { 
 	font-size: 32px;
 	line-height: 44px;
+	padding-top: 30px;
 	padding-bottom: 60px;
 	}
 		
@@ -255,7 +256,7 @@ h2 {
 	}
 	
 .contact h2 { 
-	font-size: 12px;
+	font-size: 13px;
 	}	
 	
 .footer { 
