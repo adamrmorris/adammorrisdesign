@@ -10,7 +10,8 @@ body {
 	font-size: 19px;
 	line-height: 31px;
 	color: #404040;
-	text-align: left;	
+	text-align: left;
+	-webkit-text-size-adjust:none;	
 	}
 	
 h1 { 
